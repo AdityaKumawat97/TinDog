@@ -63,7 +63,7 @@ h3 {
     /* margin-left: 5rem; */
     position: absolute;
     /* z-index: -1; */
-    right: 30%;
+    right: 20%;
 }
 /* features */
 
@@ -131,4 +131,17 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+
+/* Media queries for image */
+
+@media (max-width: 1028px){
+        .title-image{
+            position: static;
+            transform: rotate(0);
+        }
+        #title{
+            text-align: center;
+        }
 }
