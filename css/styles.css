@@ -1,103 +1,134 @@
-body{
-    font-family: 'Montserrat', sans-serif;;
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     font-weight: bold;
 }
-.navbar{
-   padding:0 0 4.5rem;
+
+.navbar {
+    padding: 0 0 4.5rem;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 18px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
 }
-#title{
+
+#title {
     color: #fff;
     background-color: #ff4c68;
 }
-h1{
+
+h1 {
     font-family: 'Montserrat-Bold';
     line-height: 1.8;
     font-size: 3.5rem;
     font-weight: bolder;
 }
 
-h2{
+h2 {
     font-family: 'Montserrat-Bold';
     line-height: 1.5;
     font-size: 3rem;
-
 }
 
-h3{
+h3 {
     font-family: 'Montserrat-Bold';
     font-weight: bolder;
-}   
-.container-fluid{
-    padding: 3% 15% ;
+}
+
+.container-fluid {
+    padding: 3% 15%;
 }
 
 /* Buttons */
-.download-button{
+
+.download-button {
     margin: 5% 3% 5% 0;
 }
+
 /* titleImage */
-.title-image{
+
+.title-image {
     width: 60%;
     transform: rotate(25deg);
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
+    position: absolute;
+    /* z-index: -1; */
+    right: 30%;
 }
-
 /* features */
-#features{
+
+#features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 
-.feature-box{
+.feature-box {
     text-align: center;
-    padding:5%;
+    padding: 5%;
 }
-p{
 
+p {
     color: #afafaf;
 }
 
-.icon{
+.icon {
     color: #ef8172;
     margin-bottom: 1rem;
 }
-.icon:hover{
+
+.icon:hover {
     color: #ff4c68;
 }
 
 /* TESTIMOIALS section */
 
-#testimonials{
-    padding: 7% 15%;
+#testimonials {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
 
-.testimonial-image{
+.testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
 
 /* PRESS */
-#press{
+
+#press {
     background-color: #ef8172;
     text-align: center;
-    padding-bottom: 3% ;
+    padding-bottom: 3%;
 }
-.press-logo{
+
+.press-logo {
     width: 15%;
     margin: 10px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
