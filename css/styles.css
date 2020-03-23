@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Black';
     line-height: 1.8;
     font-size: 3.5rem;
     font-weight: bolder;
@@ -133,7 +133,31 @@ p {
     padding: 3% 2%;
 }
 
+/* action center */
+#cta{
+    color: #fff;
+    background-color: #ff4c68;
+    /* margin: 20%; */
+    max-width: 100%;
+    padding: 7% 15%;
+    text-align: center;
+}
 
+.cta-heading{
+    font-family: font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
 /* Media queries for image */
 
 @media (max-width: 1028px){
@@ -145,3 +169,4 @@ p {
             text-align: center;
         }
 }
+
