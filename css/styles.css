@@ -65,6 +65,7 @@ h3 {
     /* z-index: -1; */
     right: 20%;
 }
+
 /* features */
 
 #features {
@@ -134,7 +135,8 @@ p {
 }
 
 /* action center */
-#cta{
+
+#cta {
     color: #fff;
     background-color: #ff4c68;
     /* margin: 20%; */
@@ -143,7 +145,7 @@ p {
     text-align: center;
 }
 
-.cta-heading{
+.cta-heading {
     font-family: font-family: 'Montserrat-Black';
     font-size: 3.5rem;
     line-height: 1.5;
@@ -151,22 +153,23 @@ p {
 
 /* footer */
 
-#footer{
+#footer {
     padding: 7% 15%;
     text-align: center;
 }
-.social-icon{
+
+.social-icon {
     margin: 20px 10px;
 }
+
 /* Media queries for image */
 
-@media (max-width: 1028px){
-        .title-image{
-            position: static;
-            transform: rotate(0);
-        }
-        #title{
-            text-align: center;
-        }
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
 }
-
